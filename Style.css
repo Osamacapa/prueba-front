@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to top, #131313, #484a4b);
+}
+/* header */
+.Navbar {
+  width: 100%;
+  display: inline-block;
+  line-height: 60px;
+  background-color: black;
+  position: fixed;
+  z-index: 100;
+}
+
+.NavbarSection > ul {
+  list-style: none;
+  display: inline;
+  font-size: 1.3rem;
+}
+
+.NavbarSection > ul > li {
+  display: inline-block;
+}
+
+.NavbarSection ul > li > a {
+  text-decoration: none;
+  color: white;
+  margin: 0 0.4rem;
+}
+
+.NavbarSection li > a:hover {
+  text-decoration: none;
+  color: rgb(0, 247, 0);
+  margin: 0 0.4rem;
+}
+
+.NavbarSection {
+  width: 80%;
+  margin: auto;
+}
+
+.NavbarSection h1 {
+  float: right;
+  font-size: 2rem;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.Logo img {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
+/* Main */
+
+/* Destacados */
+.Inicio {
+  text-align: center;
+  padding-top: 100px;
+  color: white;
+  font-size: 2rem;
+  font-family: cursive;
+}
+
+.Cont1 {
+  color: white;
+  text-align: center;
+  border: 2px solid black;
+  width: 93%;
+  height: 31%;
+  margin: 50px 35px;
+  padding-top: 10px;
+  position: relative;
+  background-color: rgb(12, 12, 12);
+  box-shadow: 5px 8px 12px rgb(43, 255, 0);
+  flex-wrap: wrap;
+}
+
+.Cont1 #Game {
+  border: 2px solid black;
+  height: 250px;
+  width: 200px;
+  margin: 20px;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+}
+
+.Cont1 #Game:hover {
+  transform: scale(1.1);
+  box-shadow: 13px 15px 37px black;
+}
+
+.Cont1 #Game img {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+/* Descripcion de pagina */
+#Descrip{
+  font-size: 1rem;
+  color:white;
+  text-align: center;
+  margin: 70px;
+}
+
+.Txt {
+  font-size: 1.2rem;
+  color: black;
+  position: absolute;
+  transform: translate(1%, -100%);
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0, 0.8);
+  background-color: rgba(255, 255, 255, 0.63);
+  width: 194px;
+}
+
+.TxtDiv{
+  text-align: center;
+  font-size: 2rem;
+  font-family: cursive;
+  color: white;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+/* Contenedor EpicGames Y Battle */
+.Cont2 #Game2 {
+  color: white;
+  text-align: center;
+  border: 2px solid black;
+  width: auto;
+  height: 70%;
+  margin: 50px 50px;
+  display: inline-block;
+  position: relative;
+  background-color: rgb(12, 12, 12);
+  box-shadow: 5px 8px 12px rgb(43, 255, 0);
+}
+
+.Cont2 #Game2:hover {
+  transform: scale(1.1);
+  box-shadow: 13px 15px 37px black;
+}
+
+.Cont2 #Game2 img {
+  display: block;
+  width: 250px;
+  height: 150px;
+  margin: 40px;
+}
+
+#Txt2 {
+  display: block;
+  font-size: 1.2rem;
+  color: black;
+  position: absolute;
+  transform: translate(1%, -100%);
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0, 0.8);
+  background-color: rgba(255, 255, 255, 0.63);
+  width: 194px;
+}
+
+/* Divisor (HR) */
+.DivTable {
+  width: 70%;
+  margin: auto;
+}
+/* Categorias de juegos */
+.TxtTitle {
+  font-size: 3rem;
+  color: white;
+}
+/* Contenedor Steam */
+.Cont3{
+  color: white;
+  text-align: center;
+  border: 2px solid black;
+  width: 96%;
+  height: 31%;
+  margin: 50px 35px;
+  padding-top: 10px;
+  position: relative;
+  background-color: rgb(12, 12, 12);
+  box-shadow: 5px 8px 12px rgb(43, 255, 0);
+}
+
+.Cont3 #Game3 img{
+  width: 240px;
+  height: 150px;
+  margin: 40px;
+}
+
+.Cont3 hr{
+  width: 70%;
+  margin: auto;
+}
+/* Footer */
+.PiePag{
+  width: 100%;
+  display: inline-block;
+  line-height: 60px;
+  background-color: black;
+}
+
+.PiePag p{
+  color: white;
+  text-align: center;
+  margin: 10px;
+}
+
+/* div.scroll_horizontal {
+  width: auto;
+	overflow: auto;
+	border: 1px solid #666;
+	padding: 8px;
+} */
